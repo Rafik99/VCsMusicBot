@@ -8,7 +8,7 @@ from VCsMusicBot.config import BOT_TOKEN
 from VCsMusicBot.services.callsmusic import run
 
 response = requests.get(BG_IMAGE)
-file = open("./etc/foreground.png", "wb")
+file = open("./etc/foreground.gif", "wb")
 file.write(response.content)
 file.close()
 
